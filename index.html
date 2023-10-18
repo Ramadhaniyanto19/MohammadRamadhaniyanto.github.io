@@ -1,145 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="assets/img/MR.jpg" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/MR.jpg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/MR.jpg" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/MR.jpg" />
-    <link rel="manifest" href="assets/img/site.webmanifest" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== BOXICONS ===============-->
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/MR.jpg" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/MR.jpg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/MR.jpg" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/MR.jpg" />
+  <link rel="manifest" href="assets/img/site.webmanifest" />
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!--=============== BOXICONS ===============-->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-    <title>MohammadRamadhaniyanto | Portfolio</title>
-  </head>
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
 
-  <body>
-    <!--=============== HEADER ===============-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#home" class="nav__logo">MohammadRamadhaniyanto</a>
+  <title>MohammadRamadhaniyanto | Portfolio</title>
+</head>
 
-        <div class="nav__menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="bx bx-home-alt"></i>
-                <!-- <div class="section__subtitle nav__text">Home</div> -->
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="bx bx-user"></i>
-                <!-- <div class="section__subtitle nav__text">About</div> -->
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="bx bx-book"></i>
-                <!-- <div class="section__subtitle nav__text">Skills</div> -->
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#work" class="nav__link">
-                <i class="bx bx-briefcase"></i>
-                <!-- <div class="section__subtitle nav__text">Work</div> -->
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="bx bx-message-square-dots"></i>
-                <!-- <div class="section__subtitle nav__text">Contact</div> -->
-              </a>
-            </li>
-          </ul>
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">MohammadRamadhaniyanto</a>
+
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="bx bx-home-alt"></i>
+              <!-- <div class="section__subtitle nav__text">Home</div> -->
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="bx bx-user"></i>
+              <!-- <div class="section__subtitle nav__text">About</div> -->
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="bx bx-book"></i>
+              <!-- <div class="section__subtitle nav__text">Skills</div> -->
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">
+              <i class="bx bx-briefcase"></i>
+              <!-- <div class="section__subtitle nav__text">Work</div> -->
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="bx bx-message-square-dots"></i>
+              <!-- <div class="section__subtitle nav__text">Contact</div> -->
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Theme Change Button -->
+      <i class="bx bx-moon change-theme" id="theme-button"></i>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__greeting"> Hello, I'm </span>
+          <h1 class="home__name">Mohammad Ramadhaniyanto</h1>
+          <h3 class="home__education">Web Developer</h3>
+
+          <div class="home__buttons">
+            <a href="Real_Mohammad Ramadhaniyanto_CV.pdf" target="_blank" class="button button--ghost">
+              Download Resume
+            </a>
+            <a href="#about" class="button">About Me</a>
+          </div>
         </div>
 
-        <!-- Theme Change Button -->
-        <i class="bx bx-moon change-theme" id="theme-button"></i>
-      </nav>
-    </header>
+        <div class="home__handle">
+          <img src="assets/img/Rama.png" alt="" class="home__img" />
+        </div>
 
-    <!--=============== MAIN ===============-->
-    <main class="main">
-      <!--=============== HOME ===============-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__data">
-            <span class="home__greeting"> Hello, I'm </span>
-            <h1 class="home__name">Mohammad Ramadhaniyanto</h1>
-            <h3 class="home__education">Web Developer</h3>
-
-            <div class="home__buttons">
-              <a
-                href="Real_Mohammad Ramadhaniyanto_CV.pdf"
-                target="_blank"
-                class="button button--ghost"
-              >
-                Download Resume
-              </a>
-              <a href="#about" class="button">About Me</a>
-            </div>
-          </div>
-
-          <div class="home__handle">
-            <img src="assets/img/Rama.png" alt="" class="home__img" />
-          </div>
-
-          <div class="home__social">
-            <a
-              href="https://www.linkedin.com/in/ramadhaniyanto/"
-              class="home__social-link"
-            >
-              <i class="bx bxl-linkedin"></i>
-            </a>
-            <a
-              href="https://github.com/MohammadRamadhaniyanto"
-              class="home__social-link"
-            >
-              <i class="bx bxl-github"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/mohammad.ramadhaniyanto/"
-              class="home__social-link"
-            >
-              <i class="bx bxl-instagram"></i>
-            </a>
-          </div>
-
-          <a href="#about" class="home__scroll">
-            <i class="bx bx-mouse home__scroll-icon"></i>
-            <span class="home__scroll-name">Scroll Down</span>
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/ramadhaniyanto/" class="home__social-link">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/ramadhaniyanto19" class="home__social-link">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.instagram.com/mohammad.ramadhaniyanto/" class="home__social-link">
+            <i class="bx bxl-instagram"></i>
           </a>
         </div>
-      </section>
 
-      <!--=============== ABOUT ===============-->
-      <section class="about section" id="about">
-        <span class="section__subtitle">My Intro</span>
-        <h2 class="section__title">About Me</h2>
+        <a href="#about" class="home__scroll">
+          <i class="bx bx-mouse home__scroll-icon"></i>
+          <span class="home__scroll-name">Scroll Down</span>
+        </a>
+      </div>
+    </section>
 
-        <div class="about__container container grid">
-          <div class="about__wrapper">
-            <div class="about__handle">
-              <img src="assets/img/aboutme.png" alt="" class="about__img" />
-            </div>
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <span class="section__subtitle">My Intro</span>
+      <h2 class="section__title">About Me</h2>
+
+      <div class="about__container container grid">
+        <div class="about__wrapper">
+          <div class="about__handle">
+            <img src="assets/img/aboutme.png" alt="" class="about__img" />
           </div>
+        </div>
 
-          <div class="about__data">
-            <!-- <div class="about__info">
+        <div class="about__data">
+          <!-- <div class="about__info">
 
                         <div class="about__box">
                             <i class='bx bx-award about__icon' ></i>
@@ -158,263 +143,206 @@
                         </div>
                     </div> -->
 
-            <p class="about__description">
-              Ahli Madya teknik informatika tahun 2023. Telah menyelesaikan
-              pendidikan di Univertas Logistik dan Bisnis Internasional.
-              Memiliki pengalaman magang dan menjadi pekerja magang sebagai Web
-              Developer. Paham mengenai Database MySQL, SDLC, Software
-              Documentation dan bahasa pemrograman.
-            </p>
-            <a href="#contact" class="button">Contact Me</a>
+          <p class="about__description">
+            Ahli Madya teknik informatika tahun 2023. Telah menyelesaikan
+            pendidikan di Univertas Logistik dan Bisnis Internasional.
+            Memiliki pengalaman magang dan menjadi pekerja magang sebagai Web
+            Developer. Paham mengenai Database MySQL, SDLC, Software
+            Documentation dan bahasa pemrograman.
+          </p>
+          <a href="#contact" class="button">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SKILLS ===============-->
+    <section class="skills section" id="skills">
+      <span class="section__subtitle">My Experience</span>
+      <h2 class="section__title">Skills</h2>
+
+      <div class="skills__container container grid">
+        <div class="skills__content">
+          <h3 class="skills__title">Systems Design</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <iconify-icon icon="simple-icons:diagramsdotnet" style="color: #b195e9" width="22"></iconify-icon>
+
+                <div>
+                  <h3 class="skills__name">Flowchart</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+              <div class="skills__data">
+                <iconify-icon icon="simple-icons:diagramsdotnet" style="color: #b195e9" width="22"></iconify-icon>
+
+                <div>
+                  <h3 class="skills__name">Use Case Diagram</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+              <div class="skills__data">
+                <iconify-icon icon="simple-icons:diagramsdotnet" style="color: #b195e9" width="22"></iconify-icon>
+
+                <div>
+                  <h3 class="skills__name">UML</h3>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+        <div class="skills__content">
+          <h3 class="skills__title">Software</h3>
 
-      <!--=============== SKILLS ===============-->
-      <section class="skills section" id="skills">
-        <span class="section__subtitle">My Experience</span>
-        <h2 class="section__title">Skills</h2>
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <iconify-icon icon="gala:file-document" style="color: #b195e9" width="23"></iconify-icon>
 
-        <div class="skills__container container grid">
-          <div class="skills__content">
-            <h3 class="skills__title">Systems Design</h3>
-
-            <div class="skills__box">
-              <div class="skills__group">
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="simple-icons:diagramsdotnet"
-                    style="color: #b195e9"
-                    width="22"
-                  ></iconify-icon>
-
-                  <div>
-                    <h3 class="skills__name">Flowchart</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">Figma</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
                 </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="simple-icons:diagramsdotnet"
-                    style="color: #b195e9"
-                    width="22"
-                  ></iconify-icon>
+              </div>
+              <div class="skills__data">
+                <iconify-icon icon="gala:file-document" style="color: #b195e9" width="23"></iconify-icon>
 
-                  <div>
-                    <h3 class="skills__name">Use Case Diagram</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">Visual Studio Code</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
                 </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="simple-icons:diagramsdotnet"
-                    style="color: #b195e9"
-                    width="22"
-                  ></iconify-icon>
+              </div>
+              <div class="skills__data">
+                <iconify-icon icon="gala:file-document" style="color: #b195e9" width="23"></iconify-icon>
 
-                  <div>
-                    <h3 class="skills__name">UML</h3>
-                  </div>
+                <div>
+                  <h3 class="skills__name">Microsoft SQL Management</h3>
                 </div>
               </div>
             </div>
           </div>
-          <div class="skills__content">
-            <h3 class="skills__title">Software</h3>
+        </div>
+        <div class="skills__content">
+          <h3 class="skills__title">Language Programming</h3>
 
-            <div class="skills__box">
-              <div class="skills__group">
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="gala:file-document"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxl-php"></i>
 
-                  <div>
-                    <h3 class="skills__name">Figma</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">PHP</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
                 </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="gala:file-document"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-file-json"></i>
 
-                  <div>
-                    <h3 class="skills__name">Visual Studio Code</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">JSON</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
                 </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="gala:file-document"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxl-html5"></i>
 
-                  <div>
-                    <h3 class="skills__name">Microsoft SQL Management</h3>
-                  </div>
+                <div>
+                  <h3 class="skills__name">HTML</h3>
+                  <!-- <span class="skills__level">Beginner</span> -->
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxl-javascript"></i>
+
+                <div>
+                  <h3 class="skills__name">JavaScript</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+            </div>
+            <div class="skills__group">
+              <div class="skills__data">
+                <iconify-icon icon="simple-icons:laravel" style="color: #b195e9" width="23"></iconify-icon>
+
+                <div>
+                  <h3 class="skills__name">Laravel</h3>
+                  <!-- <span class="skills__level">Beginner</span> -->
+                </div>
+              </div>
+              <div class="skills__data">
+                <iconify-icon icon="simple-icons:codeigniter" style="color: #b195e9" width="23"></iconify-icon>
+
+                <div>
+                  <h3 class="skills__name">CodeIgniter</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <iconify-icon icon="simple-icons:react" style="color: #b195e9" width="23"></iconify-icon>
+
+                <div>
+                  <h3 class="skills__name">React JS</h3>
                 </div>
               </div>
             </div>
           </div>
-          <div class="skills__content">
-            <h3 class="skills__title">Language Programming</h3>
+        </div>
+        <div class="skills__content">
+          <h3 class="skills__title">Keahlian Lainnya</h3>
 
-            <div class="skills__box">
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="bx bxl-php"></i>
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <iconify-icon icon="simple-icons:mysql" style="color: #b195e9" width="23"></iconify-icon>
 
-                  <div>
-                    <h3 class="skills__name">PHP</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <i class="bx bxs-file-json"></i>
-
-                  <div>
-                    <h3 class="skills__name">JSON</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <i class="bx bxl-html5"></i>
-
-                  <div>
-                    <h3 class="skills__name">HTML</h3>
-                    <!-- <span class="skills__level">Beginner</span> -->
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <i class="bx bxl-javascript"></i>
-
-                  <div>
-                    <h3 class="skills__name">JavaScript</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">MySQL</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
                 </div>
               </div>
-              <div class="skills__group">
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="simple-icons:laravel"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
+              <div class="skills__data">
+                <i class="bx bx-git-branch"></i>
 
-                  <div>
-                    <h3 class="skills__name">Laravel</h3>
-                    <!-- <span class="skills__level">Beginner</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">Git/Github</h3>
+                  <!-- <span class="skills__level">Beginner</span> -->
                 </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="simple-icons:codeigniter"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
+              </div>
+              <div class="skills__data">
+                <iconify-icon icon="mdi:microsoft" style="color: #b195e9" width="23"></iconify-icon>
 
-                  <div>
-                    <h3 class="skills__name">CodeIgniter</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="simple-icons:react"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
-
-                  <div>
-                    <h3 class="skills__name">React JS</h3>
-                  </div>
+                <div>
+                  <h3 class="skills__name">Microsoft Office</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
                 </div>
               </div>
             </div>
-          </div>
-          <div class="skills__content">
-            <h3 class="skills__title">Keahlian Lainnya</h3>
+            <div class="skills__group">
+              <div class="skills__data">
+                <iconify-icon icon="icon-park-outline:analysis" style="color: #b195e9" width="23"></iconify-icon>
 
-            <div class="skills__box">
-              <div class="skills__group">
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="simple-icons:mysql"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
-
-                  <div>
-                    <h3 class="skills__name">MySQL</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <i class="bx bx-git-branch"></i>
-
-                  <div>
-                    <h3 class="skills__name">Git/Github</h3>
-                    <!-- <span class="skills__level">Beginner</span> -->
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="mdi:microsoft"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
-
-                  <div>
-                    <h3 class="skills__name">Microsoft Office</h3>
-                    <!-- <span class="skills__level">Intermediate</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">Requirement Analysis</h3>
+                  <!-- <span class="skills__level">Beginner</span> -->
                 </div>
               </div>
-              <div class="skills__group">
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="icon-park-outline:analysis"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
+              <div class="skills__data">
+                <iconify-icon icon="mdi:api" style="color: #b195e9" width="23"></iconify-icon>
 
-                  <div>
-                    <h3 class="skills__name">Requirement Analysis</h3>
-                    <!-- <span class="skills__level">Beginner</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">Rest API</h3>
+                  <!-- <span class="skills__level">Beginner</span> -->
                 </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="mdi:api"
-                    style="color: #b195e9"
-                    width="23"
-                  ></iconify-icon>
+              </div>
+              <div class="skills__data">
+                <iconify-icon icon="mdi:tortoise" style="color: #b195e9" width="23" ;></iconify-icon>
 
-                  <div>
-                    <h3 class="skills__name">Rest API</h3>
-                    <!-- <span class="skills__level">Beginner</span> -->
-                  </div>
+                <div>
+                  <h3 class="skills__name">Tortoise SVN</h3>
+                  <!-- <span class="skills__level">Beginner</span> -->
                 </div>
-                <div class="skills__data">
-                  <iconify-icon
-                    icon="mdi:tortoise"
-                    style="color: #b195e9"
-                    width="23"
-                    ;
-                  ></iconify-icon>
-
-                  <div>
-                    <h3 class="skills__name">Tortoise SVN</h3>
-                    <!-- <span class="skills__level">Beginner</span> -->
-                  </div>
-                </div>
-                <!-- <div class="skills__data">
+              </div>
+              <!-- <div class="skills__data">
                                 <i class='bx bxl-react' ></i>
 
                                 <div>
@@ -422,95 +350,79 @@
                                     <span class="skills__level">Beginner</span>
                                 </div>
                             </div> -->
-              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--=============== WORK ===============-->
-      <section class="work section" id="work">
-        <span class="section__subtitle">My Portfolio</span>
-        <h2 class="section__title">My Recent Work</h2>
+    <!--=============== WORK ===============-->
+    <section class="work section" id="work">
+      <span class="section__subtitle">My Portfolio</span>
+      <h2 class="section__title">My Recent Work</h2>
 
-        <!-- <div class="work__filters">
+      <!-- <div class="work__filters">
                 <span class="work__item active-work" data-filter="all">All</span>
                 <span class="work__item" data-filter=".sites">Sites</span>
                 <span class="work__item" data-filter=".apps">Apps</span>
                 <span class="work__item" data-filter=".ui">UI</span>
             </div> -->
 
-        <div class="work__container container grid">
-          <div class="work__card mix apps sites">
-            <img src="assets/img/SPK.png" alt="" class="work__img" />
+      <div class="work__container container grid">
+        <div class="work__card mix apps sites">
+          <img src="assets/img/SPK.png" alt="" class="work__img" />
 
-            <h3 class="work__title">
-              SPK Siswa Terbaik dengan perbandingan<br />
-              AHP-TOPSIS dan AHP-SAW
-            </h3>
+          <h3 class="work__title">
+            SPK Siswa Terbaik dengan perbandingan<br />
+            AHP-TOPSIS dan AHP-SAW
+          </h3>
 
-            <a
-              href="https://github.com/Ramadhaniyanto19/SPK-AHP-TOPSIS"
-              target="_blank"
-              class="work__button"
-            >
-              <i class="bx bxl-github github-size"></i>
-              Lihat Disini
-              <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-          <div class="work__card mix sites ui">
-            <img src="assets/img/Proyek2.png" alt="" class="work__img" />
+          <a href="https://github.com/Ramadhaniyanto19/SPK-AHP-TOPSIS" target="_blank" class="work__button">
+            <i class="bx bxl-github github-size"></i>
+            Lihat Disini
+            <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+        <div class="work__card mix sites ui">
+          <img src="assets/img/Proyek2.png" alt="" class="work__img" />
 
-            <h3 class="work__title">
-              Sistem Informasi Pariwisata dan<br />
-              Tongkrongan di Kota Solo
-            </h3>
+          <h3 class="work__title">
+            Sistem Informasi Pariwisata dan<br />
+            Tongkrongan di Kota Solo
+          </h3>
 
-            <a
-              href="https://github.com/Ramadhaniyanto19/Proyek2_Laravel"
-              target="_blank"
-              class="work__button"
-            >
-              <i class="bx bxl-github github-size"></i>
-              Lihat Disini
-              <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-          <div class="work__card mix site ui">
-            <img src="assets/img/Proyek1.png" alt="" class="work__img" />
+          <a href="https://github.com/Ramadhaniyanto19/Proyek2_Laravel" target="_blank" class="work__button">
+            <i class="bx bxl-github github-size"></i>
+            Lihat Disini
+            <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+        <div class="work__card mix site ui">
+          <img src="assets/img/Proyek1.png" alt="" class="work__img" />
 
-            <h3 class="work__title">
-              Sistem Kelola dan Pemasaran Kerajinan <br />
-              Tangan Pangandaran
-            </h3>
+          <h3 class="work__title">
+            Sistem Kelola dan Pemasaran Kerajinan <br />
+            Tangan Pangandaran
+          </h3>
 
-            <a
-              href="https://github.com/Ramadhaniyanto19/proyek1"
-              target="_blank"
-              class="work__button"
-            >
-              <i class="bx bxl-github github-size"></i>
-              Lihat Disini
-              <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-          <div class="work__card mix ui sites">
-            <img src="assets/img/api_tsm.png" alt="" class="work__img" />
+          <a href="https://github.com/Ramadhaniyanto19/proyek1" target="_blank" class="work__button">
+            <i class="bx bxl-github github-size"></i>
+            Lihat Disini
+            <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+        <div class="work__card mix ui sites">
+          <img src="assets/img/api_tsm.png" alt="" class="work__img" />
 
-            <h3 class="work__title">Rest API</h3>
+          <h3 class="work__title">Rest API</h3>
 
-            <a
-              href="https://github.com/Ramadhaniyanto19/API_TSM"
-              target="_blank"
-              class="work__button"
-            >
-              <i class="bx bxl-github github-size"></i>
-              Lihat Disini
-              <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-          <!-- <div class="work__card mix apps sites">
+          <a href="https://github.com/Ramadhaniyanto19/API_TSM" target="_blank" class="work__button">
+            <i class="bx bxl-github github-size"></i>
+            Lihat Disini
+            <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+        <!-- <div class="work__card mix apps sites">
           <img src="assets/img/API_EPS.jpg" alt="" class="work__img" />
 
           <h3 class="work__title">Predict Sentiment Model</h3>
@@ -521,75 +433,61 @@
             <i class="bx bx-right-arrow-alt work__icon"></i>
           </a>
         </div> -->
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <!--=============== TESTIMONIALS ===============-->
-      <section class="testimonial section">
-        <span class="section__subtitle">My certificate</span>
-        <h2 class="section__title">Licenses & Certifications</h2>
+    <!--=============== TESTIMONIALS ===============-->
+    <section class="testimonial section">
+      <span class="section__subtitle">My certificate</span>
+      <h2 class="section__title">Licenses & Certifications</h2>
 
-        <div class="testimonial__container container grid swiper">
-          <div class="swiper-wrapper">
-            <!--=============== BNSP, LSP TIK ===============-->
-            <div class="testimonial__card swiper-slide">
-              <h3 class="testimonial__name">
-                Android Development for Beginner
-              </h3>
-              <span class="testimonial__subtitle" style="color: #b195e9"
-                >Haltev (26 Oktober 2021)</span
-              >
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1ioIJ4hXyddTAjuXM2HBC84If3Gxy9YDX/view?usp=share_link"
-                target="_blank"
-              >
-                <img src="assets/img/Haltev.png" class="about__img" />
-              </a>
-            </div>
+      <div class="testimonial__container container grid swiper">
+        <div class="swiper-wrapper">
+          <!--=============== BNSP, LSP TIK ===============-->
+          <div class="testimonial__card swiper-slide">
+            <h3 class="testimonial__name">
+              Android Development for Beginner
+            </h3>
+            <span class="testimonial__subtitle" style="color: #b195e9">Haltev (26 Oktober 2021)</span>
+            <br />
+            <a href="https://drive.google.com/file/d/1ioIJ4hXyddTAjuXM2HBC84If3Gxy9YDX/view?usp=share_link"
+              target="_blank">
+              <img src="assets/img/Haltev.png" class="about__img" />
+            </a>
+          </div>
 
-            <div class="testimonial__card swiper-slide">
-              <h3 class="testimonial__name">Linux Concept for Networking</h3>
-              <span class="testimonial__subtitle" style="color: #b195e9"
-                >SUHU (30 Maret 2021)</span
-              >
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1UxjUmfpNnb6jWloaDpH1UuI5h0e5Q1FN/view?usp=sharing"
-                target="_blank"
-              >
-                <img src="assets/img/Suhu.png" class="about__img" />
-              </a>
-            </div>
-            <div class="testimonial__card swiper-slide">
-              <h3 class="testimonial__name">Pandu Digital</h3>
-              <span class="testimonial__subtitle" style="color: #b195e9"
-                >KOMINFO</span
-              >
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1y2GKQrKlQ6y6RwgLc8dy6wG3bnakWkAu/view?usp=sharing"
-                target="_blank"
-              >
-                <img src="assets/img/Kominfo.png" class="about__img" />
-                <!-- <img src="assets/img/CertificateElementsOfAI.jpg" class="about__img"> -->
-              </a>
-            </div>
-            <div class="testimonial__card swiper-slide">
-              <h3 class="testimonial__name">Web Developer From Zero to Hero</h3>
-              <span class="testimonial__subtitle" style="color: #b195e9">
-                Dicoding (29 Januari 2022)
-              </span>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/12rcJIYE9VODfnsX-e0UsK-b9vflD8tOm/view?usp=sharing"
-                target="_blank"
-              >
-                <img src="assets/img/dicoding.png" class="about__img" />
-                <!-- <img src="assets/img/CertificateElementsOfAI.jpg" class="about__img"> -->
-              </a>
-            </div>
-            <!-- <div class="testimonial__card swiper-slide">
+          <div class="testimonial__card swiper-slide">
+            <h3 class="testimonial__name">Linux Concept for Networking</h3>
+            <span class="testimonial__subtitle" style="color: #b195e9">SUHU (30 Maret 2021)</span>
+            <br />
+            <a href="https://drive.google.com/file/d/1UxjUmfpNnb6jWloaDpH1UuI5h0e5Q1FN/view?usp=sharing"
+              target="_blank">
+              <img src="assets/img/Suhu.png" class="about__img" />
+            </a>
+          </div>
+          <div class="testimonial__card swiper-slide">
+            <h3 class="testimonial__name">Pandu Digital</h3>
+            <span class="testimonial__subtitle" style="color: #b195e9">KOMINFO</span>
+            <br />
+            <a href="https://drive.google.com/file/d/1y2GKQrKlQ6y6RwgLc8dy6wG3bnakWkAu/view?usp=sharing"
+              target="_blank">
+              <img src="assets/img/Kominfo.png" class="about__img" />
+              <!-- <img src="assets/img/CertificateElementsOfAI.jpg" class="about__img"> -->
+            </a>
+          </div>
+          <div class="testimonial__card swiper-slide">
+            <h3 class="testimonial__name">Web Developer From Zero to Hero</h3>
+            <span class="testimonial__subtitle" style="color: #b195e9">
+              Dicoding (29 Januari 2022)
+            </span>
+            <br />
+            <a href="https://drive.google.com/file/d/12rcJIYE9VODfnsX-e0UsK-b9vflD8tOm/view?usp=sharing"
+              target="_blank">
+              <img src="assets/img/dicoding.png" class="about__img" />
+              <!-- <img src="assets/img/CertificateElementsOfAI.jpg" class="about__img"> -->
+            </a>
+          </div>
+          <!-- <div class="testimonial__card swiper-slide">
             <h3 class="testimonial__name">
               Data Analysis with R Programming
             </h3>
@@ -601,26 +499,23 @@
               <img src="assets/img/CourseraAnalisisDataDenganPemrogramanR.jpg" class="about__img" />
             </a>
           </div> -->
-            <div class="testimonial__card swiper-slide">
-              <h3 class="testimonial__name">More</h3>
-              <!-- <span class="testimonial__subtitle" style="color: #b195e9;">
+          <div class="testimonial__card swiper-slide">
+            <h3 class="testimonial__name">More</h3>
+            <!-- <span class="testimonial__subtitle" style="color: #b195e9;">
                             Look at LinkedIn
                         </span> -->
-              <br />
-              <a
-                href="https://www.linkedin.com/in/MohammadRamadhaniyanto/details/certifications/"
-                target="_blank"
-              >
-                <span class="testimonial__subtitle" style="color: #b195e9">
-                  Look at LinkedIn
-                  <i class="bx bx-right-arrow-alt work__icon"></i>
-                </span>
+            <br />
+            <a href="https://www.linkedin.com/in/Ramadhaniyanto/details/certifications/" target="_blank">
+              <span class="testimonial__subtitle" style="color: #b195e9">
+                Look at LinkedIn
+                <i class="bx bx-right-arrow-alt work__icon"></i>
+              </span>
 
-                <!-- <img src="assets/img/CertificateElementsOfAI.jpg" class="about__img"> -->
-              </a>
-            </div>
-            <!--=============== COURSERA ===============-->
-            <!-- <div class="testimonial__card  swiper-slide">
+              <!-- <img src="assets/img/CertificateElementsOfAI.jpg" class="about__img"> -->
+            </a>
+          </div>
+          <!--=============== COURSERA ===============-->
+          <!-- <div class="testimonial__card  swiper-slide">
                         <h3 class="testimonial__name">Prepare Data for Exploration</h3>
                         <span class="testimonial__subtitle" style="color: #b195e9;">Coursera (Nov 2022 - No Exp Date)</span>
                         <br>
@@ -637,38 +532,32 @@
                             <img src="assets/img/JuniorNetworking.jpg" class="about__img">
                         </a>
                     </div> -->
-          </div>
-          <div class="swiper-pagination"></div>
         </div>
-      </section>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
-      <!--=============== CONTACT ===============-->
-      <section class="contact section" id="contact">
-        <span class="section__subtitle">Get in Touch</span>
-        <h2 class="section__title">Contact Me</h2>
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <span class="section__subtitle">Get in Touch</span>
+      <h2 class="section__title">Contact Me</h2>
 
-        <div class="contact__container container grid">
-          <div class="contact__content">
-            <h3 class="contact__title">Talk to me</h3>
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h3 class="contact__title">Talk to me</h3>
 
-            <div class="contact__info">
-              <div class="contact__card">
-                <i class="bx bx-mail-send contact__card-icon"></i>
-                <h3 class="contact__card-title">Email</h3>
-                <span class="contact__card-data"
-                  >mramadhaniyanto@gmail.com</span
-                >
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class="bx bx-mail-send contact__card-icon"></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">mramadhaniyanto@gmail.com</span>
 
-                <a
-                  href="mailto:mramadhaniyanto@gmail.com"
-                  target="_blank"
-                  class="contact__button"
-                >
-                  Write To Me
-                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
-                </a>
-              </div>
-              <!-- <div class="contact__card">
+              <a href="mailto:mramadhaniyanto@gmail.com" target="_blank" class="contact__button">
+                Write To Me
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+            <!-- <div class="contact__card">
                             <i class='bx bxl-whatsapp contact__card-icon' ></i>
                             <h3 class="contact__card-title">Whatsapp</h3>
                             <span class="contact__card-data">+233 50 229 7337</span>
@@ -688,111 +577,80 @@
                                 <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
                             </a>
                         </div> -->
-            </div>
-          </div>
-          <div class="contact__content">
-            <h3 class="contact__title">Suggest a project</h3>
-
-            <form
-              action=""
-              class="contact__form"
-              name="contact"
-              method="POST"
-              data-netlify="true"
-            >
-              <div class="contact__form-div">
-                <label for="" class="contact__form-tag">Name</label>
-                <input
-                  type="text"
-                  placeholder="Example: MohammadRamadhaniyanto"
-                  class="contact__form-input"
-                />
-              </div>
-              <div class="contact__form-div">
-                <label for="" class="contact__form-tag">Email</label>
-                <input
-                  type="email"
-                  placeholder="yourname@example.com"
-                  class="contact__form-input"
-                />
-              </div>
-              <div class="contact__form-div contact__form-area">
-                <label for="" class="contact__form-tag">Project</label>
-                <textarea
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="10"
-                  placeholder="Write your message"
-                  class="contact__form-input"
-                ></textarea>
-              </div>
-
-              <button class="button" type="submit">Send Message</button>
-            </form>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="contact__content">
+          <h3 class="contact__title">Suggest a project</h3>
 
-    <!--=============== FOOTER ===============-->
-    <footer class="footer">
-      <div class="footer__container container">
-        <h1 class="footer__title">MohammadRamadhaniyanto</h1>
+          <form action="" class="contact__form" name="contact" method="POST" data-netlify="true">
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Name</label>
+              <input type="text" placeholder="Example: MohammadRamadhaniyanto" class="contact__form-input" />
+            </div>
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Email</label>
+              <input type="email" placeholder="yourname@example.com" class="contact__form-input" />
+            </div>
+            <div class="contact__form-div contact__form-area">
+              <label for="" class="contact__form-tag">Project</label>
+              <textarea name="" id="" cols="30" rows="10" placeholder="Write your message"
+                class="contact__form-input"></textarea>
+            </div>
 
-        <ul class="footer__list">
-          <li>
-            <a href="#about" class="footer__link">About</a>
-          </li>
-          <li>
-            <a href="#work" class="footer__link">Projects</a>
-          </li>
-          <li>
-            <a href="#testimonial" class="footer__link">Testimonial</a>
-          </li>
-        </ul>
-        <ul class="footer__social">
-          <a
-            href="https://github.com/MohammadRamadhaniyanto"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="bx bxl-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/MohammadRamadhaniyanto/"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="bx bxl-linkedin"></i>
-          </a>
-          <a
-            href="https://instagram.com/hilyarizqiyah_/"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="bx bxl-instagram"></i>
-          </a>
-        </ul>
-
-        <span class="footer__copy">
-          2022 &copy; MohammadRamadhaniyanto. All Rights reserved.
-        </span>
+            <button class="button" type="submit">Send Message</button>
+          </form>
+        </div>
       </div>
-    </footer>
+    </section>
+  </main>
 
-    <!--=============== SCROLLREVEAL ===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">MohammadRamadhaniyanto</h1>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+      <ul class="footer__list">
+        <li>
+          <a href="#about" class="footer__link">About</a>
+        </li>
+        <li>
+          <a href="#work" class="footer__link">Projects</a>
+        </li>
+        <li>
+          <a href="#testimonial" class="footer__link">Testimonial</a>
+        </li>
+      </ul>
+      <ul class="footer__social">
+        <a href="https://github.com/ramadhaniyanto19" target="_blank" class="footer__social-link">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ramadhaniyanto/" target="_blank" class="footer__social-link">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/mohammad.ramadhaniyanto/" target="_blank" class="footer__social-link">
+          <i class="bx bxl-instagram"></i>
+        </a>
+      </ul>
 
-    <!--=============== MIXITUP FILTER ===============-->
-    <script src="assets/js/mixitup.min.js"></script>
+      <span class="footer__copy">
+        2022 &copy; MohammadRamadhaniyanto. All Rights reserved.
+      </span>
+    </div>
+  </footer>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
 
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-  </body>
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MIXITUP FILTER ===============-->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+
 </html>
